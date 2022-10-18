@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: black;
+    padding: 8px 100px 8px 100px;
+    color: white;
+    display: flex;
+    font-family: Arial;
+    font-size: 14px;
+  }
+  .tlink {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+  }
+  .tlink:hover {
+    color: orangered;
+    text-decoration: none;
+  }
+  main {
+    background-color: white;
+    padding: 30px 110px 30px 110px;
+  }
+  .mid {
+    display: flex;
+  }
+  .tlink2 {
+    color: black;
+    text-decoration: none;
+    padding: 20px 20px 0px 20px;
+  }
+  .tlink2:hover {
+    color: orangered;
+    text-decoration: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border: 2px solid orangered;
+  }
+  .tlink3 {
+    color: rgb(236, 232, 232);
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .tlink4 {
+    color: black;
+    text-decoration: none;
+  }
+  .tlink4:hover {
+    color: orangered;
+    text-decoration: none;
+  }
+  .tlink5 {
+    color: white;
+    text-decoration: none;
+  }
+  .tlink5:hover {
+    text-decoration: none;
+  }
+  .heading {
+    padding: 5px 30px 5px 30px;
+    background-color: rgb(255, 69, 0, 0.8);
+    width: 100%;
+  }
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown2-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown2:hover .dropdown2-content {
+    display: block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .formm {
+    padding: 10px;
+  }
+  .products {
+    display: flex;
+    padding: 0px 40px 0px 40px;
+  }
+  .name {
+    text-align: center;
+    font-family: Arial;
+    color: darkgray;
+    text-decoration: none;
+  }
+  .name:hover {
+    color: orangered;
+    text-decoration: none;
+  }
+  .prices {
+    text-align: center;
+    font-family: Arial;
+    color: orangered;
+  }
+  footer {
+    background-color: black;
+    padding: 30px 110px 30px 110px;
+  }
+  .flink {
+    color: lightgray;
+    font-family: Arial;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 12px;
+  }
+  .flink:hover {
+    text-decoration: none;
+    color: orangered;
+  }
+  h3 {
+    color: white;
+    font-size: 14px;
+  }
+  h4 {
+    color: white;
+    font-size: 13px;
+    font-family: Arial;
+    text-decoration: none;
+  }
+  
